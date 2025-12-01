@@ -27,3 +27,15 @@ function timeset(){
 }
 setInterval(timeset,1000)
 timeset()
+
+const project = document.querySelectorAll(".project-1");
+const B = document.querySelectorAll(".B");
+
+project.addEventListener("mouseenter", () => {
+  B.style.display = "block";
+});
+
+project.addEventListener("mouseleave", () => {
+  B.style.display = "none";
+});
+

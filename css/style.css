@@ -290,6 +290,12 @@ body {
   justify-content: space-between;
   gap: 10px;
 }
+.aboutButtons,.aboutButtons:active,.aboutButtons:focus{
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color:transparent;
+  outline: none;
+  box-shadow: none;
+}
 .R,
 .J,
 .H,
@@ -360,6 +366,13 @@ body {
   align-items: center;
   gap: 50px;
 }
+.mainSkills,.mainSkills:active,.mainSkills:focus{
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color:transparent;
+  outline: none;
+  box-shadow: none;
+}
+
 
 .skillHead {
   font-size: 20px;
@@ -478,6 +491,12 @@ body {
 .main-mini-project {
   color: aliceblue;
 }
+.main-mini-project,.main-mini-project:active,.main-mini-project:focus{
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color:transparent;
+  outline: none;
+  box-shadow: none;
+}
 .mini-project {
   display: flex;
   flex-wrap: wrap;
@@ -506,28 +525,20 @@ body {
   box-shadow: 2px 2px 5px rgba(199, 190, 190, 0.628);
   position: relative;
 }
-.overlap {
-  border-radius: 20px;
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  right: 0%;
-  left: 0%;
-  opacity: 0;
-  transition: 0.9s ease;
-}
-
-.project-1:hover .overlap {
-  box-shadow: 0px 0px 45px 0px rgba(218, 85, 85, 0.628);
-  color: rgb(118, 211, 118);
-  opacity: 1;
-}
-.B {
+.B{
+  display: none;
   position: absolute;
   top: 22%;
-  left: 25%;
+  left: 20%;
   font-size: 2rem;
   color: aliceblue;
+  transition: 0.8s;
+}
+.project-1:hover .B {
+  display: block;
+}
+.project:hover .B {
+  display: none;
 }
 
 .b3{
