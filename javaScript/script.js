@@ -35,10 +35,10 @@ let openmenu = document.querySelector("#menu-icon");
 let closemenu = document.querySelector("#cross-icon");
 
 openmenu.addEventListener("click",function(){
-  ul.style.right = "0px";
+  ul.style.display = "block";
 })
 
 closemenu.addEventListener("click",function(){
-  ul.style.right = "-200px";
+  ul.style.display = "none";
   console.log("hai")
 })
