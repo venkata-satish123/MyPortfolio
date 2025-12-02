@@ -69,8 +69,8 @@ body {
 .A2::after,
 .A3::after,
 .A4::after,
-.A5::after{
-  content: '';
+.A5::after {
+  content: "";
   width: 0%;
   height: 3px;
   background: #ced570;
@@ -83,7 +83,7 @@ body {
 .A2:hover::after,
 .A3:hover::after,
 .A4:hover::after,
-.A5:hover::after{
+.A5:hover::after {
   width: 100%;
 }
 
@@ -129,8 +129,8 @@ body {
   line-height: 0;
 }
 .mainH2 {
-  color: rgb(37, 202, 171);
-  text-shadow: 2px 2px 5px rgb(98, 148, 98);
+  color: rgb(230, 198, 120);
+  text-shadow: 2px 2px 5px rgba(31, 30, 30, 0.726);
   font-size: larger;
 }
 .k {
@@ -282,17 +282,19 @@ body {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 .editname {
-  color: rgb(37, 202, 171);
-  text-shadow: 2px 2px 5px rgb(98, 148, 98);
+  color: rgb(230, 198, 120);
+  text-shadow: 2px 2px 5px rgba(31, 30, 30, 0.726);
 }
 .aboutButtons {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
-.aboutButtons,.aboutButtons:active,.aboutButtons:focus{
+.aboutButtons,
+.aboutButtons:active,
+.aboutButtons:focus {
   -webkit-tap-highlight-color: transparent;
-  -webkit-focus-ring-color:transparent;
+  -webkit-focus-ring-color: transparent;
   outline: none;
   box-shadow: none;
 }
@@ -366,13 +368,14 @@ body {
   align-items: center;
   gap: 50px;
 }
-.mainSkills,.mainSkills:active,.mainSkills:focus{
+.mainSkills,
+.mainSkills:active,
+.mainSkills:focus {
   -webkit-tap-highlight-color: transparent;
-  -webkit-focus-ring-color:transparent;
+  -webkit-focus-ring-color: transparent;
   outline: none;
   box-shadow: none;
 }
-
 
 .skillHead {
   font-size: 20px;
@@ -398,7 +401,7 @@ body {
 .additionalSills,
 .FocusArea {
   /* background-color: aqua; */
-  border: none;
+  border: 1px solid white;
   width: 500px;
   height: 250px;
   border-radius: 10px;
@@ -410,7 +413,7 @@ body {
   color: aliceblue;
   background-color: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(9px);
-  box-shadow: 1px 2px 4px 4px rgba(255, 255, 255, 0.201);
+  box-shadow: 1px 2px 30px 4px rgba(20, 11, 11, 0.201);
   transition: transform 0.4s;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
@@ -491,9 +494,11 @@ body {
 .main-mini-project {
   color: aliceblue;
 }
-.main-mini-project,.main-mini-project:active,.main-mini-project:focus{
+.main-mini-project,
+.main-mini-project:active,
+.main-mini-project:focus {
   -webkit-tap-highlight-color: transparent;
-  -webkit-focus-ring-color:transparent;
+  -webkit-focus-ring-color: transparent;
   outline: none;
   box-shadow: none;
 }
@@ -525,7 +530,7 @@ body {
   box-shadow: 2px 2px 5px rgba(199, 190, 190, 0.628);
   position: relative;
 }
-.B{
+.B {
   display: none;
   position: absolute;
   top: 22%;
@@ -541,7 +546,7 @@ body {
   display: none;
 }
 
-.b3{
+.b3 {
   color: rgb(255, 255, 255);
 }
 /* footer part */
@@ -584,7 +589,7 @@ body {
 /* #cross-icon,#menu-icon{
   display: none;
 } */
-.lists .bx{
+.lists .bx {
   display: none;
 }
 /* -----------------------------------------
@@ -611,19 +616,19 @@ body {
     top: 0%;
     z-index: 2;
   }
-  .lists .bx{
-  display: block;
-  color: white;
-  font-size: 30px;
+  .lists .bx {
+    display: block;
+    color: white;
+    font-size: 30px;
   }
-  .lists{
-    margin-right:0px;
+  .lists {
+    margin-right: 0px;
     margin-top: 0%;
     border-radius: 20px;
     display: block;
     position: relative;
   }
-  .lists ul{
+  .lists ul {
     background: rgba(15, 15, 15, 0.454);
     backdrop-filter: blur(10px);
     position: fixed;
@@ -635,26 +640,26 @@ body {
     display: none;
     /* z-index: 2; */
   }
-  .lists ul li{
+  .lists ul li {
     display: block;
     margin: 25px;
     padding: 10px;
   }
-  .lists ul .bx{
+  .lists ul .bx {
     position: absolute;
     top: 30px;
     left: 25px;
     text-align: center;
   }
-  .lists ul .bx:active{
+  .lists ul .bx:active {
     text-align: center;
     color: greenyellow;
   }
-  #menu-icon{
+  #menu-icon {
     margin-top: 13px;
     margin-right: 30px;
   }
-  #menu-icon:active{
+  #menu-icon:active {
     color: greenyellow;
   }
 
@@ -663,7 +668,6 @@ body {
   }
 
   /* NAVIGATION (NO .lists USED) */
-
 
   /* Home Section */
   .mainhome {
