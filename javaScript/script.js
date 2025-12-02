@@ -28,14 +28,17 @@ function timeset(){
 setInterval(timeset,1000)
 timeset()
 
-const project = document.querySelectorAll(".project-1");
-const B = document.querySelectorAll(".B");
+// .......menubar,,,,,,,
 
-project.addEventListener("mouseenter", () => {
-  B.style.display = "block";
-});
+let ul = document.querySelector("#sidemenu");
+let openmenu = document.querySelector("#menu-icon");
+let closemenu = document.querySelector("#cross-icon");
 
-project.addEventListener("mouseleave", () => {
-  B.style.display = "none";
-});
+openmenu.addEventListener("click",function(){
+  ul.style.right = "0px";
+})
 
+closemenu.addEventListener("click",function(){
+  ul.style.right = "-200px";
+  console.log("hai")
+})
