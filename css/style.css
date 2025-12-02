@@ -628,7 +628,7 @@ body {
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0%;
-    right: 0px;
+    right: -200px;
     width: 150px;
     height: 100vh;
     padding-top: 50px;
