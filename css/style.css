@@ -168,7 +168,7 @@ body {
     transparent,
     transparent,
     transparent,
-    rgb(187, 223, 8)
+    rgb(216, 158, 71)
   );
   transform: rotate(0deg);
   animation: rotate-border 10s linear infinite;
@@ -224,13 +224,21 @@ body {
   );
   transition: o.9s;
 }
-.MyCV:hover {
+#cv,
+#cv:active,
+#cv:focus {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+/* .MyCV:hover {
   background-image: linear-gradient(
     to right,
     rgb(157, 166, 74),
     rgb(21, 20, 21)
   );
-}
+} */
 @keyframes coding {
   0% {
     border-top-color: red;
@@ -471,6 +479,13 @@ body {
   margin-top: 60px;
   text-align: center;
 }
+.coreSkills .bx,.additionalSills .bx,.FocusArea .bx{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-size: 2rem;
+  display: none;
+}
 
 /* .items{
   color: white;
@@ -542,8 +557,14 @@ body {
 .project-1:hover .B {
   display: block;
 }
-.project:hover .B {
-  display: none;
+.k2{
+  display: block;
+  position: absolute;
+  top: 22%;
+  right: 25%;
+  font-size: 1.7rem;
+  color: rgb(47, 135, 212);
+  transition: 0.8s;
 }
 
 .b3 {
@@ -746,6 +767,15 @@ body {
   .textFocusArea {
     font-size: 25px;
   }
+  
+  .coreSkills .bx,.additionalSills .bx,.FocusArea .bx{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-size: 2rem;
+  color: rgb(244, 244, 244);
+  display: block;
+}
 
   /* Mini Projects */
   .projects {
@@ -755,6 +785,9 @@ body {
 
   .project-1 {
     width: 90%;
+  }
+  .project-1 .B {
+    display: block;
   }
 
   /* Footer */
