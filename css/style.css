@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   box-sizing: border-box;
   background-image: linear-gradient(
@@ -168,7 +171,7 @@ body {
     transparent,
     transparent,
     transparent,
-    rgb(216, 136, 71)
+    orange
   );
   transform: rotate(0deg);
   animation: rotate-border 10s linear infinite;
@@ -569,6 +572,92 @@ body {
 .b3 {
   color: rgb(255, 255, 255);
 }
+/* contact */
+.container{
+  margin-top: 100px;
+  color: aliceblue;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.sub-title{
+  margin-top: -50%;
+  font-size: 50px;
+  background-image: linear-gradient(to right, white, rgb(241, 159, 72));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+  margin-top: 40px;
+}
+.contact-left p i{
+  color: orange;
+  font-size: 25px;
+}
+.social-icons a{
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 30px;
+  color: #f5efef;
+  display: inline-block;
+}
+.social-icons a:hover{
+  color: orange;
+}
+.btnl{
+  margin-top: 30px;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    rgb(21, 20, 21),
+    rgb(166, 74, 74)
+  );
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  width: 50%;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.contact-right form{
+  width: 100%;
+}
+form input,form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: #cecdcd;
+  padding: 15px;
+  margin: 15px 0px;
+  color: #100f0f;
+  font-size: 18px;
+  border-radius: 10px;
+  caret-color: auto;
+}
+.sub-btn{
+  margin-top: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(21, 20, 21),
+    rgb(166, 74, 74)
+  );
+  width: 20%;
+  color: white;
+  border: 2px solid white;
+  padding:10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 10px;
+}
+
 /* footer part */
 
 .footerpart {
@@ -791,6 +880,54 @@ body {
     display: block;
   }
 
+  /* contact */
+  .container {
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .sub-title {
+    margin-top: 0;
+    font-size: 35px;
+  }
+
+  .contact-left p {
+    font-size: 15px;
+  }
+
+  .social-icons a {
+    font-size: 28px;
+    margin-right: 12px;
+  }
+  .social-icons a:active{
+    background-color: orange;
+  }
+
+  .btnl {
+    width: 50%;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .sub-btn {
+    width: 60%;
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+
   /* Footer */
   .footerpart {
     border: 1 px solid black;
@@ -807,4 +944,4 @@ body {
   .m h3 {
     font-size: 10px;
   }
-}
+
