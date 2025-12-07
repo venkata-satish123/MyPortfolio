@@ -168,7 +168,7 @@ body {
     transparent,
     transparent,
     transparent,
-    rgb(216, 158, 71)
+    rgb(216, 136, 71)
   );
   transform: rotate(0deg);
   animation: rotate-border 10s linear infinite;
@@ -204,7 +204,7 @@ body {
   object-fit: cover;
   mix-blend-mode: lighten;
 }
-#cv{
+#cv {
   cursor: pointer;
   width: 130px;
   height: 40px;
@@ -217,11 +217,11 @@ body {
   font-weight: lighter;
   font-size: larger;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  border: 2px solid rgb(239, 79, 79);
+  border: 2px solid rgb(234, 223, 223);
   background-image: linear-gradient(
     to right,
     rgb(21, 20, 21),
-    rgb(157, 166, 74)
+    rgb(166, 74, 74)
   );
   transition: o.9s;
   display: flex;
@@ -236,13 +236,6 @@ body {
   outline: none;
   box-shadow: none;
 }
-/* .MyCV:hover {
-  background-image: linear-gradient(
-    to right,
-    rgb(157, 166, 74),
-    rgb(21, 20, 21)
-  );
-} */
 @keyframes coding {
   0% {
     border-top-color: red;
@@ -483,7 +476,9 @@ body {
   margin-top: 60px;
   text-align: center;
 }
-.coreSkills .bx,.additionalSills .bx,.FocusArea .bx{
+.coreSkills .bx,
+.additionalSills .bx,
+.FocusArea .bx {
   position: absolute;
   bottom: 5%;
   right: 5%;
@@ -561,7 +556,7 @@ body {
 .project-1:hover .B {
   display: block;
 }
-.k2{
+.k2 {
   display: block;
   position: absolute;
   top: 22%;
@@ -771,15 +766,17 @@ body {
   .textFocusArea {
     font-size: 25px;
   }
-  
-  .coreSkills .bx,.additionalSills .bx,.FocusArea .bx{
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
-  font-size: 2rem;
-  color: rgb(244, 244, 244);
-  display: block;
-}
+
+  .coreSkills .bx,
+  .additionalSills .bx,
+  .FocusArea .bx {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 2rem;
+    color: rgb(244, 244, 244);
+    display: block;
+  }
 
   /* Mini Projects */
   .projects {
