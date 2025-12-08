@@ -3,11 +3,9 @@ html{
 }
 body {
   box-sizing: border-box;
-  background-image: linear-gradient(
-    270deg,
-    rgb(36, 36, 35),
-    rgb(51,53,51)
-  );
+  background-image:url(../images/pexels-eva-bronzini-7640905.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 20px;
   position: relative;
   caret-color: transparent;
@@ -67,6 +65,8 @@ body {
   color: rgb(232, 237, 223);
   text-decoration: none;
   position: relative;
+  font-size:20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .A1::after,
 .A2::after,
@@ -76,7 +76,7 @@ body {
   content: "";
   width: 0%;
   height: 3px;
-  background: rgb(207,219,213);
+  background: rgb(232, 237, 223);
   position: absolute;
   left: 0%;
   bottom: -5px;
@@ -103,7 +103,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+  font-size: 20px;
 }
 .home {
   color: rgb(232, 237, 223);
@@ -125,14 +126,17 @@ body {
   color: rgb(173, 181, 189);
   text-shadow: 0px 0px 2px rgb(247, 246, 246);
 }
-.mainH2,
+
 .mainH3,
 .mainH4,
 .mainH1 {
   line-height: 0;
 }
 .mainH2 {
-  color: rgb(232, 237, 223);
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: larger;
 }
 .k {
@@ -203,7 +207,7 @@ body {
   display: block;
   width: 400px;
   object-fit: cover;
-  mix-blend-mode: lighten;
+  /* mix-blend-mode: lighten; */
 }
 #cv {
   cursor: pointer;
@@ -221,8 +225,8 @@ body {
   border: 2px solid rgb(232, 237, 223);
   background-image: linear-gradient(
     to right,
-    rgb(51, 53, 51),
-    rgb(241, 203, 92)
+    rgb(30, 55, 110),
+    rgb(34, 37, 44)
   );
   transition: o.9s;
   display: flex;
@@ -270,11 +274,12 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  font-size: larger;
 }
 .aboutH1 {
   font-size: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(241, 159, 72));
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -288,7 +293,10 @@ body {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 .editname {
-  color: rgb(230, 198, 120);
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px 5px rgba(31, 30, 30, 0.726);
 }
 .aboutButtons {
@@ -312,8 +320,8 @@ body {
 .JV {
   background-image: linear-gradient(
     to right,
-    rgb(51,53,51),
-    rgb(35, 36, 35)
+    rgb(34, 37, 44),
+    rgb(30, 55, 110)
   );
   color: rgb(207,219,213);
   border: none;
@@ -325,6 +333,7 @@ body {
   border: 2px solid rgb(207,219,213);
   transition: 0.4s;
   cursor: pointer;
+  font-size:large;
 }
 .R:hover,
 .J:hover,
@@ -332,11 +341,11 @@ body {
 .C:hover,
 .S:hover,
 .JV:hover {
-  box-shadow: 0px 0px 3px 2px rgb(245, 203, 92);
+  box-shadow: 0px 0px 3px 4px rgb(31, 74, 95);
   background-image: linear-gradient(
     to right,
-    rgb(245,203,92),
-    rgb(36,36,35)
+    rgb(30, 55, 110),
+    rgb(34, 37, 44)
   );
 }
 .icons {
@@ -346,9 +355,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+.icons,.icons:active,.icons:focus{
+  -webkit-focus-ring-color:transparent;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
 .Me {
   font-size: 20px;
-  background-image: linear-gradient(to right, white, rgb(241, 159, 72));
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -385,7 +400,7 @@ body {
 
 .skillHead {
   font-size: 20px;
-  background-image: linear-gradient(to right, white, rgb(241, 159, 72));
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -436,7 +451,7 @@ body {
 .textFocusArea {
   font-size: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-image: linear-gradient(to right, white, rgb(245,203,92));
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -453,11 +468,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: linear-gradient(
-    to right,
-    rgb(51, 53, 51),
-    rgb(36,36,35)
-  );
+  background-image:url(../images/pexels-eva-bronzini-7640905.jpg);
   overflow: hidden;
   border-radius: 10px;
   width: 100%;
@@ -501,7 +512,7 @@ body {
 
 /* mini-project */
 .name-mini-project {
-  background-image: linear-gradient(to right, white, rgb(241, 159, 72));
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -563,8 +574,11 @@ body {
   top: 22%;
   right: 20%;
   font-size: 1.7rem;
-  color: rgb(47, 135, 212);
+  color: rgb(245, 248, 250);
   transition: 0.8s;
+}
+.k2:hover{
+  color: rgb(8, 149, 243);
 }
 
 .b3 {
@@ -585,7 +599,7 @@ body {
 .sub-title{
   margin-top: -50%;
   font-size: 50px;
-  background-image: linear-gradient(to right, white, rgb(241, 159, 72));
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -607,6 +621,12 @@ body {
 .social-icons a:hover{
   color: orange;
 }
+.social-icons a,.social-icons a:active,.social-icons a:focus{
+  -webkit-focus-ring-color:transparent;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
 .btnl{
   margin-top: 30px;
   display: inline-block;
@@ -620,16 +640,22 @@ body {
   border-radius: 15px;
   background-image: linear-gradient(
     to right,
-    rgb(51,53,51),
-    rgb(36,36,35)
+    rgb(34, 37, 44),
+    rgb(30, 55, 110)
   );
 }
 .btnl:hover{
   background-image: linear-gradient(
     to right,
-    rgb(21, 20, 21),
-    rgb(245,203,92)
+    rgb(30, 55, 110),
+    rgb(34, 37, 44)
   );
+}
+.btnl,.btnl:hover,.btnl:focus{
+  -webkit-focus-ring-color:transparent;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  box-shadow: none;
 }
 
 .contact-right form{
@@ -651,8 +677,8 @@ form input,form textarea{
   margin-top: 10px;
   background-image: linear-gradient(
     to right,
-    rgb(51,53,51),
-    rgb(36,35,35)
+    rgb(34, 37, 44),
+    rgb(30, 55, 110)
   );
   width: 20%;
   color: rgb(207,219,213);
@@ -665,9 +691,15 @@ form input,form textarea{
 .sub-btn:hover{
   background-image: linear-gradient(
     to right,
-    rgb(36,36,35),
-    rgb(245,203,92)
+    rgb(30, 55, 110),
+    rgb(34, 37, 44)
   );
+}
+.sub-btn,.sub-btn:hover,.sub-btn:focus{
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color:transparent;
+  outline: none;
+  box-shadow: none;
 }
 
 /* footer part */
@@ -692,6 +724,12 @@ form input,form textarea{
   list-style: none;
   gap: 5px;
 }
+.h a,.h a:active,.h a:focus{
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
 .b{
   color: rgb(207,219,213);
   pointer-events: auto;
@@ -699,7 +737,7 @@ form input,form textarea{
 }
 .m {
   text-decoration: none;
-  background-image: linear-gradient(to right, white, rgb(241, 159, 72));
+  background-image: linear-gradient(to right, rgb(219, 208, 208), rgb(239, 199, 157));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -891,6 +929,9 @@ form input,form textarea{
   .project-1 .B {
     display: block;
   }
+  .k2{
+    color: rgb(17, 155, 248);
+  }
 
   /* contact */
   .container {
@@ -944,8 +985,7 @@ form input,form textarea{
     text-align: center;
     border-radius: 10px;
     font-size: small;
-    border-radius: 0%;
- }
+  }
   .b {
     font-size: 10px;
   }
