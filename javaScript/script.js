@@ -29,3 +29,21 @@ closemenu.addEventListener("click", function () {
   ul.style.display = "none";
   console.log("hai");
 });
+
+// contact
+
+
+let form = document.querySelector("#contact-form");
+let input1 = document.querySelector(".input1");
+let input2 = document.querySelector(".input2");
+let input3 = document.querySelector(".input3");
+let button = document.querySelector(".sub-btn");
+
+button.addEventListener("click", function () {
+  setTimeout(() => {
+    input1.value = "";
+    input2.value = "";
+    input3.value = "";
+  }, 500); // wait for web3forms submit
+});
+

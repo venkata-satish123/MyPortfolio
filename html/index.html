@@ -273,13 +273,15 @@
         <a href="../images/satish resume1.pdf" class="btnl" download>Download CV</a>
       </div>
       <div class="contact-right">
-            <form>
-              <input type="text" name="Name" placeholder="Your Name" required>
-              <input type="text" name="Email" placeholder="Your Email" required>
-              <textarea name="Message" rows="6" placeholder="Your Message" r></textarea>
-              <button type="submit" class="sub-btn">Submit</button>
-            </form>
-      </div>
+  <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="25d4a92b-2bfd-47ac-97aa-9431e54c482d">
+    <input type="text" name="Name" placeholder="Your Name" required class="input1">
+    <input type="text" name="Email" placeholder="Your Email" required class="input2">
+    <textarea name="Message" rows="6" placeholder="Your Message" class="input3"></textarea>
+    <button type="submit" class="sub-btn">Submit</button>
+  </form>
+</div>
+
     </div>
     </div>
     <!-- footer part -->

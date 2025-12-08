@@ -4,9 +4,9 @@ html{
 body {
   box-sizing: border-box;
   background-image: linear-gradient(
-    to right,
-    rgb(21, 20, 21),
-    rgb(166, 74, 74)
+    270deg,
+    rgb(33, 37, 41),
+    rgb(52,68,64)
   );
   border-radius: 20px;
   position: relative;
@@ -76,7 +76,7 @@ body {
   content: "";
   width: 0%;
   height: 3px;
-  background: orange;
+  background: rgb(173,181,189);
   position: absolute;
   left: 0%;
   bottom: -5px;
@@ -106,7 +106,7 @@ body {
   gap: 10px;
 }
 .home {
-  color: rgb(215, 216, 217);
+  color: rgb(248,249, 250);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -122,8 +122,8 @@ body {
 }
 .mainH1 {
   font-size: 110px;
-  color: rgb(166, 164, 164);
-  text-shadow: 2px 2px 3px rgb(247, 246, 246);
+  color: rgb(173, 181, 189);
+  text-shadow: 0px 0px 2px rgb(247, 246, 246);
 }
 .mainH2,
 .mainH3,
@@ -132,8 +132,7 @@ body {
   line-height: 0;
 }
 .mainH2 {
-  color: rgb(230, 198, 120);
-  text-shadow: 2px 2px 5px rgba(31, 30, 30, 0.726);
+  color: rgb(222, 216,230);
   font-size: larger;
 }
 .k {
@@ -170,7 +169,7 @@ body {
   background: conic-gradient(
     transparent,
     transparent,
-    orange
+    rgb(173,181,189)
   );
   transform: rotate(0deg);
   animation: rotate-border 10s linear infinite;
