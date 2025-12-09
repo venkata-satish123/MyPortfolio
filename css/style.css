@@ -1247,6 +1247,49 @@ form input,form textarea{
     grid-template-columns: auto auto auto;
     justify-content: center;
   }
+  .react-1,
+  .javascript-1,
+  .html-1,
+  .css-1,
+  .sql-1,
+  .java-1 {
+    width: 200px;          /* full width on phone */
+    height: 150px;        /* adjust height automatically */
+    padding: 70px;
+    gap: 0px;
+  }
+
+  .react,
+  .javascript,
+  .html,
+  .css,
+  .sql,
+  .java {
+    top:30%;            /* better center on phone */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .react-1 p,
+  .javascript-1 p,
+  .html-1 p,
+  .css-1 p,
+  .sql-1 p,
+  .java-1 p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .react-1 button,
+  .javascript-1 button,
+  .html-1 button,
+  .css-1 button,
+  .sql-1 button,
+  .java-1 button {
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+  }
 
   /* Skills Section */
   .mainSkills .Skills {
