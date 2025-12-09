@@ -266,6 +266,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .about {
   display: flex;
@@ -311,6 +312,323 @@ body {
   -webkit-focus-ring-color: transparent;
   outline: none;
   box-shadow: none;
+}
+.react{
+  position:absolute;
+  top: 7%;
+  display: none;
+}
+.react-1{
+  width: 400px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+  border: 0.4px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 30px;
+  animation: react0 0.9s linear;
+}
+@keyframes react0 {
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+.react-1 p{
+  text-align: center;
+  color: #faf7f7;
+  font-weight:bold;
+  font-size: larger;
+  line-height: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.react-1 button{
+  width: 100px;
+  height: 40px;
+  border: 2px solid #100f0f;
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.react-1 button:active{
+  background-image: linear-gradient(to right, rgb(53, 51, 51),rgb(22, 72, 120));
+  border: 0.5px solid white;
+  color: white;
+}
+/* javascript */
+.javascript{
+  position:absolute;
+  top: 7%;
+  display: none;
+}
+.javascript-1{
+  width: 400px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+  border: 0.4px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 30px;
+  animation: react0 0.9s linear;
+}
+@keyframes react0 {
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+.javascript-1 p{
+  text-align: center;
+  color: #faf7f7;
+  font-weight:bold;
+  font-size: larger;
+  line-height: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.javascript-1 button{
+  width: 100px;
+  height: 40px;
+  border: 2px solid #100f0f;
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.javascript-1 button:active{
+  background-image: linear-gradient(to right, rgb(53, 51, 51),rgb(22, 72, 120));
+  border: 0.5px solid white;
+  color: white;
+}
+/* html */
+.html{
+  position:absolute;
+  top: 7%;
+  display: none;
+}
+.html-1{
+  width: 400px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+  border: 0.4px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 30px;
+  animation: react0 0.9s linear;
+}
+@keyframes react0 {
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+.html-1 p{
+  text-align: center;
+  color: #faf7f7;
+  font-weight:bold;
+  font-size: larger;
+  line-height: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.html-1 button{
+  width: 100px;
+  height: 40px;
+  border: 2px solid #100f0f;
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.html-1 button:active{
+  background-image: linear-gradient(to right, rgb(53, 51, 51),rgb(22, 72, 120));
+  border: 0.5px solid white;
+  color: white;
+}
+/* css */
+.css{
+  position:absolute;
+  top: 7%;
+  display: none;
+}
+.css-1{
+  width: 400px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+  border: 0.4px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 30px;
+  animation: react0 0.9s linear;
+}
+@keyframes react0 {
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+.css-1 p{
+  text-align: center;
+  color: #faf7f7;
+  font-weight:bold;
+  font-size: larger;
+  line-height: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.css-1 button{
+  width: 100px;
+  height: 40px;
+  border: 2px solid #100f0f;
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.css-1 button:active{
+  background-image: linear-gradient(to right, rgb(53, 51, 51),rgb(22, 72, 120));
+  border: 0.5px solid white;
+  color: white;
+}
+/* sql */
+.sql{
+  position:absolute;
+  top: 7%;
+  display: none;
+}
+.sql-1{
+  width: 400px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+  border: 0.4px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 30px;
+  animation: react0 0.9s linear;
+}
+@keyframes react0 {
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+.sql-1 p{
+  text-align: center;
+  color: #faf7f7;
+  font-weight:bold;
+  font-size: larger;
+  line-height: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sql button{
+  width: 100px;
+  height: 40px;
+  border: 2px solid #100f0f;
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sql-1 button:active{
+  background-image: linear-gradient(to right, rgb(53, 51, 51),rgb(22, 72, 120));
+  border: 0.5px solid white;
+  color: white;
+}
+/* java */
+.java{
+  position:absolute;
+  top: 7%;
+  display: none;
+}
+.java-1{
+  width: 400px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+  border: 0.4px solid white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 30px;
+  animation: react0 0.9s linear;
+}
+@keyframes react0 {
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+.java-1 p{
+  text-align: center;
+  color: #faf7f7;
+  font-weight:bold;
+  font-size: larger;
+  line-height: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.java-1 button{
+  width: 100px;
+  height: 40px;
+  border: 2px solid #100f0f;
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.java-1 button:active{
+  background-image: linear-gradient(to right, rgb(53, 51, 51),rgb(22, 72, 120));
+  border: 0.5px solid white;
+  color: white;
 }
 .R,
 .J,

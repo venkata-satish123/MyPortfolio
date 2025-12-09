@@ -47,3 +47,59 @@ button.addEventListener("click", function () {
   }, 500); // wait for web3forms submit
 });
 
+
+
+// all popups
+let popups = document.querySelectorAll(".react, .javascript, .html, .css, .sql, .java");
+
+// Function to close all popups
+function closeAll() {
+  popups.forEach(p => p.style.display = "none");
+}
+
+// --- React ---
+document.querySelector(".R").addEventListener("click", function () {
+  closeAll();
+  document.querySelector(".react").style.display = "block";
+});
+document.querySelector(".react-1 button").addEventListener("click", closeAll);
+
+
+// --- JavaScript ---
+document.querySelector(".J").addEventListener("click", function () {
+  closeAll();
+  document.querySelector(".javascript").style.display = "block";
+});
+document.querySelector(".javascript-1 button").addEventListener("click", closeAll);
+
+
+// --- HTML ---
+document.querySelector(".H").addEventListener("click", function () {
+  closeAll();
+  document.querySelector(".html").style.display = "block";
+});
+document.querySelector(".html-1 button").addEventListener("click", closeAll);
+
+
+// --- CSS ---
+document.querySelector(".C").addEventListener("click", function () {
+  closeAll();
+  document.querySelector(".css").style.display = "block";
+});
+document.querySelector(".css-1 button").addEventListener("click", closeAll);
+
+
+// --- SQL ---
+document.querySelector(".S").addEventListener("click", function () {
+  closeAll();
+  document.querySelector(".sql").style.display = "block";
+});
+document.querySelector(".sql-1 button").addEventListener("click", closeAll);
+
+
+// --- JAVA ---
+document.querySelector(".JV").addEventListener("click", function () {
+  closeAll();
+  document.querySelector(".java").style.display = "block";
+});
+document.querySelector(".java-1 button").addEventListener("click", closeAll);
