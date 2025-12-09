@@ -555,6 +555,14 @@ body {
   text-align: center;
   box-shadow: 2px 2px 5px rgba(199, 190, 190, 0.628);
   position: relative;
+  transition: 0.9s;
+}
+.project-1:hover{
+  background-image: linear-gradient(
+    to right,
+    rgb(34, 37, 44),
+    rgb(30, 55, 110)
+  );
 }
 .B {
   display: none;
