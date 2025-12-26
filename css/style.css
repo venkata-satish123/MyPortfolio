@@ -312,12 +312,12 @@ body {
 }
 .react{
   position:absolute;
-  top: 7%;
+  top: 20%;
   display: none;
 }
 .react-1{
-  width: 400px;
-  height: 350px;
+  width: 380px;
+  height: 320px;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(9px);
   border-radius: 20px;
@@ -327,7 +327,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
   padding: 30px;
   animation: react0 0.9s linear;
 }
@@ -365,12 +365,12 @@ body {
 /* javascript */
 .javascript{
   position:absolute;
-  top: 7%;
+  top: 20%;
   display: none;
 }
 .javascript-1{
-  width: 400px;
-  height: 350px;
+  width: 380px;
+  height: 320px;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(9px);
   border-radius: 20px;
@@ -380,7 +380,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
   padding: 30px;
   animation: react0 0.9s linear;
 }
@@ -401,7 +401,7 @@ body {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .javascript-1 button{
-  width: 101px;
+  width: 100px;
   height: 40px;
   border: 2px solid #100f0f;
   font-size: large;
@@ -418,12 +418,12 @@ body {
 /* html */
 .html{
   position:absolute;
-  top: 7%;
+  top: 20%;
   display: none;
 }
 .html-1{
-  width: 400px;
-  height: 350px;
+  width: 380px;
+  height: 320px;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(9px);
   border-radius: 20px;
@@ -433,7 +433,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
   padding: 30px;
   animation: react0 0.9s linear;
 }
@@ -471,12 +471,12 @@ body {
 /* css */
 .css{
   position:absolute;
-  top: 7%;
+  top: 20%;
   display: none;
 }
 .css-1{
-  width: 400px;
-  height: 350px;
+  width: 380px;
+  height: 320px;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(9px);
   border-radius: 20px;
@@ -486,7 +486,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
   padding: 30px;
   animation: react0 0.9s linear;
 }
@@ -524,12 +524,12 @@ body {
 /* sql */
 .sql{
   position:absolute;
-  top: 7%;
+  top: 20%;
   display: none;
 }
 .sql-1{
-  width: 400px;
-  height: 350px;
+  width: 380px;
+  height: 320px;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(9px);
   border-radius: 20px;
@@ -539,7 +539,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
   padding: 30px;
   animation: react0 0.9s linear;
 }
@@ -577,12 +577,12 @@ body {
 /* java */
 .java{
   position:absolute;
-  top: 7%;
+  top: 20%;
   display: none;
 }
 .java-1{
-  width: 400px;
-  height: 350px;
+  width: 380px;
+  height: 320px;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(9px);
   border-radius: 20px;
@@ -592,7 +592,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
   padding: 30px;
   animation: react0 0.9s linear;
 }
